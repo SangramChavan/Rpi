@@ -1,3 +1,4 @@
+sudo apt install yum
 sudo apt-get install curl
 curl --silent --location https://deb.nodesource.com/setup_5.x | sudo bash -
 sudo apt-get install nodejs
@@ -5,3 +6,6 @@ sudo apt-get install nodejs
 sudo npm install -g cordova
 
 sudo npm install -g ionic
+
+sudo apt-get install git
+sudo apt-get install docker-engine
