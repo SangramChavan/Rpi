@@ -1,0 +1,3 @@
+sudo service docker start
+sudo docker run node
+sudo docker run -it node /bin/bash

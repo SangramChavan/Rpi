@@ -1,0 +1,9 @@
+git init
+
+git status
+
+git remote add origin https://github.com/IEEEXtreme/Xtreme-10.0.git
+
+git pull origin master
+
+git push -u origin master 
