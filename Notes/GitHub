@@ -6,4 +6,10 @@ git remote add origin https://github.com/IEEEXtreme/Xtreme-10.0.git
 
 git pull origin master
 
+git add *
+
+git commit -m 'Editorials'
+
 git push -u origin master 
+
+git status
