@@ -48,7 +48,7 @@ GRANT ALL PRIVILEGES ON wordpressdb.* TO wordpressuser@localhost;
 FLUSH PRIVILEGES;                       #Then exit the MySQL shell
 exit
 #Restart services
-service apache2 restart
+sudo systemctl start apache2
 service mysql restart
 
 #Installing WordPress
