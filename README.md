@@ -1,5 +1,6 @@
 # Install tools for ubuntu
 
+WordPress.sh Installation for Ubuntu 16.04
 Running the Developer.sh will install 
 
 # Essential for every user
