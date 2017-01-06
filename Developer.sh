@@ -54,7 +54,7 @@ service mysql restart
 cd /tmp
 wget http://wordpress.org/latest.zip
 apt-get install unzip
-unzip -q latest.zip -d /var/www/html/
+sudo unzip -q latest.zip -d /var/www/html/
 
 #Now set appropriate permissions for the WordPress directory.
 chown -R www-data:www-data /var/www/html/wordpress
