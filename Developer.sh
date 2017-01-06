@@ -16,7 +16,8 @@ sudo apt-get remove totem-gstreamer totem-common -y     #Remove Videos
 sudo apt install vim -y                                 #Vim update
 sudo apt-get install xclip                              #Required to generate a SSH key for GitHub
 curl -sSL https://get.docker.com/ | sh                  #Docker
-sudo apt-get install php5-gd libssh2-php -y             #php
+sudo apt-get install apache2                            #Apache2
+sudo apt-get install php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc -y             #php
 
 #Node
 wget https://nodejs.org/dist/v6.9.2/node-v6.9.2-linux-x64.tar.xz  #Download Nodejs
