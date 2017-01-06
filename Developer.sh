@@ -23,8 +23,10 @@ wget https://nodejs.org/dist/v6.9.2/node-v6.9.2-linux-x64.tar.xz  #Download Node
 mv node-v6.9.2-linux-x64 node
 sudo cp -r node/{bin,include,lib,share} /usr/
 node -v
-sudo npm install -g cordova
-sudo npm install -g ionic
+
+#App Developer
+sudo npm install -g cordova       #Cordova
+sudo npm install -g ionic         #Ionic
 
 #Installing Heroku
 sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
