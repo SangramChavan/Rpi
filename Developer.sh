@@ -20,6 +20,7 @@ sudo apt-get install apache2 -y                         #Apache2
 sudo apt-get install mysql-server -y                    #mysql
 sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql -y             #php
 sudo apt-get install phpmyadmin -y                      #phpmyadmin
+sudo apt install composer -y                            #composer
 
 
 #Node
