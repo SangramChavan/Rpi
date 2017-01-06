@@ -38,36 +38,4 @@ curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
 sudo apt-get install heroku -y
 heroku --version
 
-#################################################################################################################################
-
-#Pre-Install WordPress Steps
-mysql -u root -p                        #Login to the MySQL or MariaDB database as root user
-CREATE DATABASE wordpressdb;
-CREATE USER wordpressuser@localhost IDENTIFIED BY 'wordpresspassword';    #User ID - wordpressuser Password - wordpresspassword     
-GRANT ALL PRIVILEGES ON wordpressdb.* TO wordpressuser@localhost;
-FLUSH PRIVILEGES;                       #Then exit the MySQL shell
-exit
-#Restart services
-sudo systemctl start apache2
-service mysql restart
-
-#Installing WordPress
-cd /tmp
-wget http://wordpress.org/latest.zip
-apt-get install unzip
-sudo unzip -q latest.zip -d /var/www/html/
-
-#Now set appropriate permissions for the WordPress directory.
-chown -R www-data:www-data /var/www/html/wordpress
-chmod -R 755 /var/www/html/wordpress
-
-#Further, we need to create the uploads directory beneath the wp-content directory at our document root. This will be the parent directory of our content
-mkdir -p /var/www/html/wordpress/wp-content/uploads
-
-#We need to allow the web server itself to write to this directory.
-chown -R www-data:www-data /var/www/html/wordpress/wp-content/uploads
-
-firefox http://localhost/wordpress/            #Open in web browser. The WordPress installer will show up.
-
-##################################################################################################################################
 sudo apt autoremove -y
