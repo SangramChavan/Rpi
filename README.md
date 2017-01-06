@@ -1,6 +1,6 @@
 # Install tools for ubuntu
 
-Running the Script will install 
+Running the Developer.sh will install 
 
 # Essential for every user
 * Download Manager
