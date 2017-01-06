@@ -12,7 +12,8 @@ Running the Developer.sh will install
 * Vim update
 * xclip 
 * php
-* WordPress Install
+* mysql
+* apache2
 
 # Deveops
 * Docker
