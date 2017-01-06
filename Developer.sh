@@ -65,3 +65,4 @@ chown -R www-data:www-data /var/www/html/wordpress/wp-content/uploads
 firefox http://localhost/wordpress/            #Open in web browser. The WordPress installer will show up.
 
 ##################################################################################################################################
+sudo apt autoremove -y
