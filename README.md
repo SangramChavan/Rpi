@@ -3,9 +3,9 @@
 Running the Script will install 
 
 # Essential for every user
-## Download Manager
-## Firefox
-## VLC player and remove Video
+* Download Manager
+* Firefox
+* VLC player and remove Video
 
 # Developer 
 * Vim update
@@ -14,9 +14,9 @@ Running the Script will install
 * WordPress Install
 
 # Deveops
-## Docker
+* Docker
 
 # Node
-## Cordova
-## Ionic
-## Heroku
+* Cordova
+* Ionic
+* Heroku
