@@ -20,6 +20,7 @@ sudo apt-get install apache2 -y                         #Apache2
 sudo apt-get install mysql-server -y                    #mysql
 sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql -y             #php
 
+
 #Node
 wget https://nodejs.org/dist/v6.9.2/node-v6.9.2-linux-x64.tar.xz  #Download Nodejs
 mv node-v6.9.2-linux-x64 node
