@@ -22,18 +22,18 @@ sudo systemctl restart apache2
 #Installing WordPress
 cd /tmp
 wget http://wordpress.org/latest.zip
-apt-get install unzip
+sudo apt-get install unzip
 sudo unzip -q latest.zip -d /var/www/html/
 
 #Now set appropriate permissions for the WordPress directory.
-chown -R www-data:www-data /var/www/html/wordpress
-chmod -R 755 /var/www/html/wordpress
+sudo chown -R www-data:www-data /var/www/html/wordpress
+sudo chmod -R 755 /var/www/html/wordpress
 
 #Further, we need to create the uploads directory beneath the wp-content directory at our document root. This will be the parent directory of our content
-mkdir -p /var/www/html/wordpress/wp-content/uploads
+sudo mkdir -p /var/www/html/wordpress/wp-content/uploads
 
 #We need to allow the web server itself to write to this directory.
-chown -R www-data:www-data /var/www/html/wordpress/wp-content/uploads
+sudo chown -R www-data:www-data /var/www/html/wordpress/wp-content/uploads
 
 firefox http://localhost/wordpress/            #Open in web browser. The WordPress installer will show up.
 
