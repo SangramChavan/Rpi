@@ -12,13 +12,16 @@ Running the Developer.sh will install
 * Vim update
 * xclip 
 * php
+* phpmyadmin
+* composer
+* Ruby
 * mysql
 * apache2
 
 # Deveops
 * Docker
+* Heroku
 
 # Node
 * Cordova
 * Ionic
-* Heroku
