@@ -26,6 +26,7 @@ sudo gem install bundler -y                             #ruby-bundler
 
 
 #Node
+sudo apt install nodejs-legacy
 sudo apt install npm
 
 #App Developer
